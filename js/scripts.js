@@ -3,6 +3,8 @@ const url = "https://jsonplaceholder.typicode.com/posts";
 const loadingElement = document.querySelector("#loading");
 const postsContainer = document.querySelector("#posts-container");
 
+//Get ID from URL
+
 // Get all posts
 async function getAllPosts() {
     const response = await fetch(url);
