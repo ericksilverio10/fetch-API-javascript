@@ -17,6 +17,7 @@ a, input[type="submit"]{
     font-size: 1em;
     border: none;
     cursor: pointer;
+    transition: .3s ease-in-out;
 }
 a:hover,
 input[type="submit"]:hover{
