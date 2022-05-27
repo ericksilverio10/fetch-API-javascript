@@ -8,10 +8,10 @@ body{
     display: none;
 }
 a, input[type="submit"]{
-    background-color: #007bff;
+    background-image: linear-gradient(to right,#a337e2, #6400a7);
     color: #FFF;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 10px 60px;
+    border-radius: 20px;
     text-decoration: none;
     opacity: .7;
     font-size: 1em;
@@ -21,5 +21,24 @@ a, input[type="submit"]{
 }
 a:hover,
 input[type="submit"]:hover{
+    letter-spacing: 2px;
+    padding: 10px 80px;
     opacity: 1;
+}
+
+form {
+    width: 300px;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+}
+form label{
+    font-weight: bold;
+    margin-bottom: .3em;
+}
+form input,
+form textarea{
+    padding: 5px;
 }
